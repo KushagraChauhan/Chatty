@@ -15,14 +15,14 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/jarvis"
+        app:srcCompat="@drawable/chatty"
         android:layout_marginTop="120dp"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="Jarvis"
+        android:text="Chatty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView7"
@@ -41,23 +41,5 @@
         android:id="@+id/textView8"
         android:textColor="@android:color/white" />
 
-    <TextView
-        android:text="All rights reserved."
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="42dp"
-        android:id="@+id/textView9"
-        android:textColor="@android:color/white" />
 
-    <TextView
-        android:text="©2017"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
-        android:id="@+id/textView10"
-        android:layout_alignTop="@+id/textView9"
-        android:layout_centerHorizontal="true"
-        android:textColor="@android:color/white" />
 </RelativeLayout>
