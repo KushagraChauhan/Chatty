@@ -1,0 +1,6 @@
+name:Chatty
+email:kushagra_sc@yahoo.in
+gender:male
+Botmaster:Kushagra
+version:1.0
+

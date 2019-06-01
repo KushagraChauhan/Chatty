@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projects.kushagra.chatty">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Chatty"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.projects.kushagra.chatty.MainActivity" />
+        <activity
+            android:name="com.projects.kushagra.chatty.WelcomeActivity"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.projects.kushagra.chatty.HelpActivity" />
+        <activity android:name="com.projects.kushagra.chatty.AboutActivity"></activity>
+    </application>
+
+</manifest>
